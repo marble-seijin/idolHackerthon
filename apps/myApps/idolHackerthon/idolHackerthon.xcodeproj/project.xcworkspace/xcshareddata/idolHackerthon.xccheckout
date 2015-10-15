@@ -10,14 +10,14 @@
 	<string>idolHackerthon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D4734A86B221714D062CE0FB36130C9C6B78B73E</key>
+		<key>0D2B00914AA86B65025B4E64088FCB7FD9782F0E</key>
 		<string>github.com:nmbakfm/idolHackerthon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>apps/myApps/idolHackerthon/idolHackerthon.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D4734A86B221714D062CE0FB36130C9C6B78B73E</key>
+		<key>0D2B00914AA86B65025B4E64088FCB7FD9782F0E</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D4734A86B221714D062CE0FB36130C9C6B78B73E</string>
+	<string>0D2B00914AA86B65025B4E64088FCB7FD9782F0E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D4734A86B221714D062CE0FB36130C9C6B78B73E</string>
+			<string>0D2B00914AA86B65025B4E64088FCB7FD9782F0E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>idolHackerthon</string>
 		</dict>

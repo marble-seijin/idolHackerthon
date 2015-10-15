@@ -35,6 +35,10 @@
 		32C043731BCC129000CC4004 /* RotationCircleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C0436C1BCC129000CC4004 /* RotationCircleScene.cpp */; };
 		32C043741BCC129000CC4004 /* SlowWaveScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C0436E1BCC129000CC4004 /* SlowWaveScene.cpp */; };
 		32C043751BCC129000CC4004 /* TunnelScrollScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C043701BCC129000CC4004 /* TunnelScrollScene.cpp */; };
+		32D855D21BCF93CB00ECE7D8 /* ColorChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32D855CE1BCF93CB00ECE7D8 /* ColorChange.cpp */; };
+		32D855D31BCF93CB00ECE7D8 /* LightRay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32D855D01BCF93CB00ECE7D8 /* LightRay.cpp */; };
+		32D855D81BCF93D700ECE7D8 /* ColorChangeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32D855D41BCF93D700ECE7D8 /* ColorChangeScene.cpp */; };
+		32D855D91BCF93D700ECE7D8 /* LightRayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32D855D61BCF93D700ECE7D8 /* LightRayScene.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
 		510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */; };
@@ -174,6 +178,14 @@
 		32C0436F1BCC129000CC4004 /* SlowWaveScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlowWaveScene.h; path = Scenes/SlowWaveScene.h; sourceTree = "<group>"; };
 		32C043701BCC129000CC4004 /* TunnelScrollScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TunnelScrollScene.cpp; path = Scenes/TunnelScrollScene.cpp; sourceTree = "<group>"; };
 		32C043711BCC129000CC4004 /* TunnelScrollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TunnelScrollScene.h; path = Scenes/TunnelScrollScene.h; sourceTree = "<group>"; };
+		32D855CE1BCF93CB00ECE7D8 /* ColorChange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorChange.cpp; path = Components/ColorChange.cpp; sourceTree = "<group>"; };
+		32D855CF1BCF93CB00ECE7D8 /* ColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorChange.h; path = Components/ColorChange.h; sourceTree = "<group>"; };
+		32D855D01BCF93CB00ECE7D8 /* LightRay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightRay.cpp; path = Components/LightRay.cpp; sourceTree = "<group>"; };
+		32D855D11BCF93CB00ECE7D8 /* LightRay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightRay.h; path = Components/LightRay.h; sourceTree = "<group>"; };
+		32D855D41BCF93D700ECE7D8 /* ColorChangeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorChangeScene.cpp; path = Scenes/ColorChangeScene.cpp; sourceTree = "<group>"; };
+		32D855D51BCF93D700ECE7D8 /* ColorChangeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorChangeScene.h; path = Scenes/ColorChangeScene.h; sourceTree = "<group>"; };
+		32D855D61BCF93D700ECE7D8 /* LightRayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightRayScene.cpp; path = Scenes/LightRayScene.cpp; sourceTree = "<group>"; };
+		32D855D71BCF93D700ECE7D8 /* LightRayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightRayScene.h; path = Scenes/LightRayScene.h; sourceTree = "<group>"; };
 		3B361208CD4107E479F04E7B /* NetworkingUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtils.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp; sourceTree = SOURCE_ROOT; };
 		444657A12E59D0ED86981498 /* TimerListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TimerListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h; sourceTree = SOURCE_ROOT; };
 		48974F980F51769171D0B2F5 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
@@ -281,6 +293,10 @@
 		2165979D1BA3E911000465E9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				32D855D41BCF93D700ECE7D8 /* ColorChangeScene.cpp */,
+				32D855D51BCF93D700ECE7D8 /* ColorChangeScene.h */,
+				32D855D61BCF93D700ECE7D8 /* LightRayScene.cpp */,
+				32D855D71BCF93D700ECE7D8 /* LightRayScene.h */,
 				32C0436A1BCC129000CC4004 /* HaloScrollScene.cpp */,
 				32C0436B1BCC129000CC4004 /* HaloScrollScene.h */,
 				32C0436C1BCC129000CC4004 /* RotationCircleScene.cpp */,
@@ -316,6 +332,10 @@
 		216597A41BA3EA64000465E9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				32D855CE1BCF93CB00ECE7D8 /* ColorChange.cpp */,
+				32D855CF1BCF93CB00ECE7D8 /* ColorChange.h */,
+				32D855D01BCF93CB00ECE7D8 /* LightRay.cpp */,
+				32D855D11BCF93CB00ECE7D8 /* LightRay.h */,
 				32C0435E1BCC128300CC4004 /* HaloScroll.cpp */,
 				32C0435F1BCC128300CC4004 /* HaloScroll.h */,
 				32C043601BCC128300CC4004 /* RotationCircle.cpp */,
@@ -692,6 +712,7 @@
 				32C043671BCC128300CC4004 /* RotationCircle.cpp in Sources */,
 				217490041BC0DDE8006B4767 /* StarDustParticleSystem.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
+				32D855D81BCF93D700ECE7D8 /* ColorChangeScene.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
 				21748FF21BC0DDAE006B4767 /* CandyDropScene.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
@@ -704,6 +725,8 @@
 				640279EE111671BD026CB013 /* ofxOscReceiver.cpp in Sources */,
 				8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */,
 				21748FFB1BC0DDAE006B4767 /* WhiteScene.cpp in Sources */,
+				32D855D31BCF93CB00ECE7D8 /* LightRay.cpp in Sources */,
+				32D855D91BCF93D700ECE7D8 /* LightRayScene.cpp in Sources */,
 				ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */,
 				67FE4C7B15C2F0478C8126C2 /* NetworkingUtils.cpp in Sources */,
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
@@ -723,6 +746,7 @@
 				21748FFA1BC0DDAE006B4767 /* StreamRigthScene.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
+				32D855D21BCF93CB00ECE7D8 /* ColorChange.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
 				21748FF41BC0DDAE006B4767 /* DropStarDustScene.cpp in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,

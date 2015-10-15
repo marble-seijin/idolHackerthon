@@ -59,6 +59,10 @@ void ofApp::keyReleased(int key){
         scene = new RotationCircleScene();
     }else if(key == 't'){
         scene = new SlowWaveScene();
+    }else if(key == 'y'){
+        scene = new ColorChangeScene();
+    }else if(key == 'u'){
+        scene = new LightRayScene();
     }
     scene -> keyReleased(key);
 }

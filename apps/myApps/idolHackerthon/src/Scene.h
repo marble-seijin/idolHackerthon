@@ -23,5 +23,7 @@
 #include "HaloScrollScene.h"
 #include "RotationCircleScene.h"
 #include "SlowWaveScene.h"
+#include "ColorChangeScene.h"
+#include "LightRayScene.h"
 
 #endif
